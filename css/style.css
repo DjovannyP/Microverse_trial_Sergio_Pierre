@@ -77,3 +77,15 @@ body {
 #dropdown {
     padding: .75rem;
 }
+#comments{
+margin-top: 10px;
+margin-bottom: 30px;
+border-radius: 5px;
+}
+#submit{
+    background-color: rgb(4, 126, 79);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
