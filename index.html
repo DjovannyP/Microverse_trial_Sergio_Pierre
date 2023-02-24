@@ -13,7 +13,7 @@
 		</p>
 
 		<form action="" id="survey-form">
-			<label for="name">Name</label>
+			<label for="name" id = "name-label">Name</label>
 			<input
 				type="text"
 				name="name"
@@ -21,7 +21,7 @@
 				placeholder="Enter your name"
 				required
 			/>
-			<label for="email">email</label>
+			<label for="email" id = email-label>email</label>
 			<input
 				type="email"
 				name="email"
@@ -30,7 +30,7 @@
 				required
 			/>
 			<div class="form-gruop">
-				<label for="age">Age (optional)</label>
+				<label for="age" id = number-label>Age (optional)</label>
 				<input
 					type="number"
 					name="age"
@@ -40,6 +40,10 @@
 					max="99"
 				/>
 			</div>
+      <select name="dropdown" id="dropdown">
+        <option value="students">Stuents</option>
+        <option value="full time job">full time job</option>
+      </select>
 		</form>
 	</body>
 </html>
