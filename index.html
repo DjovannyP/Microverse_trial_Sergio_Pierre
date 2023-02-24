@@ -7,29 +7,33 @@
 	</head>
 
 	<body>
-		<h1 id="title"></h1>
+		<h1 id="title">Survey Form</h1>
 		<p id="description">
 			Thank you for taking the time to help us improve the platform
 		</p>
 
 		<form action="" id="survey-form">
-			<label for="name" id="name-label">Name</label>
-			<input
-				type="text"
-				name="name"
-				id="name"
-				placeholder="Enter your name"
-				required
-			/>
-			<label for="email" id="email-label">email</label>
-			<input
-				type="email"
-				name="email"
-				id="email"
-				placeholder="Enter your email"
-				required
-			/>
-			<div class="form-gruop">
+			<div class="form-group">
+				<label for="name" id="name-label">Name</label>
+				<input
+					type="text"
+					name="name"
+					id="name"
+					placeholder="Enter your name"
+					required
+				/>
+			</div>
+			<div class="form-group">
+				<label for="email" id="email-label">Email</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Enter your email"
+					required
+				/>
+			</div>
+			<div class="form-group">
 				<label for="age" id="number-label">Age (optional)</label>
 				<input
 					type="number"
@@ -40,10 +44,12 @@
 					max="99"
 				/>
 			</div>
-			<select name="dropdown" id="dropdown">
-				<option value="students">Students</option>
-				<option value="full time job">full time job</option>
-			</select>
+			<div class="form-group">
+				<select name="dropdown" id="dropdown">
+					<option value="students">Students</option>
+					<option value="full time job">full time job</option>
+				</select>
+			</div>
 
 			<p>Do you like to code?</p>
 			<div class="radios">
@@ -92,11 +98,10 @@
 					<input name="languajes" type="checkbox" value="go" />
 					Go</label
 				>
-        <label for="comments">Any comments or suggestions</label>
-        <textarea name="comments" id="comments" cols="30" rows="10">
-
-        </textarea>
-        <button type = "submit" id = "submit">Submit</button>
+				<label for="comments">Any comments or suggestions</label>
+				<textarea name="comments" id="comments" cols="30" rows="10">
+				</textarea>
+				<button type="submit" id="submit">Submit</button>
 			</div>
 		</form>
 	</body>
